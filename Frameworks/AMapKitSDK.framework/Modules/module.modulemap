@@ -1,0 +1,11 @@
+framework module AMapKitSDK {
+  umbrella header "AMapKitSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AMapKitSDK.Swift {
+    header "AMapKitSDK-Swift.h"
+    requires objc
+}
